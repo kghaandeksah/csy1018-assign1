@@ -1,0 +1,295 @@
+/* Name: Ganesh Khadka Studeent Number: 17421478*/
+@import url("https://fonts.googleapis.com/css?family=Lobster+Two");
+@import url("https://fonts.googleapis.com/css?family=Special+Elite");
+body{margin: 0; font-size: 1em;
+} /*this is css code for the whole body */
+h1,h2,h3,h4,h5,h6,p{
+  margin:0;
+  padding: 0;
+}
+
+header{
+  padding: 0.5%;
+  display: flex;
+  flex-flow: row;
+  background: grey;
+  background: linear-gradient(pink, orange);
+}
+.mainheading{
+  text-align: center;
+  font-size: 1.7em;
+}
+
+.logo img{
+  width: 152px;
+  height: 101px;
+  margin-left: 10px;
+  margin-top: 5px;
+  transition: transform 2s;
+}
+
+.logo img:hover{
+  transform: translate(10px);
+}
+
+.logo p{
+  font-size: 1.25em;
+  color: red;
+  text-shadow: 2px 2px 1px blue;
+  font-family:'Lobster Two', cursive;
+}
+
+.mainheading{
+  width: 50%;
+  text-align: right;
+  padding-top: 20px;
+}
+
+.mainheading h1{
+  color: orange;
+  text-shadow:3px 3px 4px black;
+}
+
+section{}
+  .menubar{
+    width: 100%;
+    top:0px;
+    line-height:0px;
+}
+  .menubar nav{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    padding: 0.5% 1%;
+    line-height: 2.5em;
+    background: green;
+}
+  .abc{
+    background: #e6cb3b;
+    border-radius:1%;
+}
+  .menubar a{
+    text-decoration: none;
+    font-size: 2.5em;
+    color: white;
+    padding:0% 2em;
+    transition: width 0.5s, height 0.5s, transform 0.5s;
+}
+  .menubar a:hover{
+    color:red;
+    text-shadow: 2px 2px black;
+    transform: scale(1.1, 1.1);
+}
+  .maincontent{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+	.leftpart{
+    width:25%;
+    background-color: purple;
+    padding-bottom: 60px;
+
+}
+  .leftpart h1{
+    font-size: 3.7em;
+    color: white;
+    padding-top: 60px;
+    text-align: center;
+    text-shadow: 4px 4px 3px gold;
+  }
+  .leftpart h2{
+    font-size: 2.5em;
+    color: white;
+    text-align: center;
+    text-shadow: 4px 4px 3px cyan;
+  }
+	.homepart{
+    width: 56%;
+    background-color: lightgreen;
+    padding: 1%;
+  }
+  .cvpart{
+    width: 56%;
+    background-color: lightgreen;
+    padding: 1%;
+font-family: 'Special Elite', cursive;  }
+  .biopart{
+    width: 56%;
+    background-color: lightgreen;
+    padding: 1%;
+  }
+  .contactpart{
+    background-color: lightgreen;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+  }
+  .contactpart h2{
+    margin-top: 2px;
+    padding-top: 2px;
+    margin-left: 14px;
+    color: orange;
+  }
+  form{
+    font-size: 1.12;
+    background: lightgreen;
+    padding-left:20px;
+  }
+  input{
+    border-radius:5px;
+    border: 0.5px solid gold;
+  }
+  .submit{
+    cursor: pointer;
+    margin: 4px;
+  }
+  .stayconnected{
+    width: 25%;
+    padding-left: 2px;
+    background-color: purple;
+    height: 420px;
+  }
+  .stayconnected h2{
+    font-size: 2.5em;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    text-shadow: 4px 4px 3px cyan;
+  }
+
+  .rightpart{
+    width: 18 %;
+    background: purple;
+  }
+  .rightpart img{
+    position: relative;
+    padding: 4px 10px;
+    transition: transform 1s;
+    padding-left: 1px;
+  }
+  .rightpart img:hover{
+    transform: scale(1.05, 1.05);
+  }
+
+footer{
+  background: grey;
+  padding: 2%;
+  text-align: left;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+}
+.copyright{
+  width: 50%;
+  padding-left: 1%;
+  padding-top: 1.5em;
+}
+.socialconnect{
+  width: 50%;
+  padding-left: 1%;
+}
+.socialconnect img{
+  margin-right: 2%;
+  transition: transform 1s;
+}
+.socialconnect img:hover{
+  transform: rotate(360deg);
+}
+
+@media all and (max-width: 400px)
+{
+body{
+  width: 100%
+}
+header{
+  width: 100%;
+}
+.mainheading h1{
+  font-size: 1.88em;
+  text-align: center;
+}
+.logo img{
+  height: 50px;
+  width: 50px;
+}
+.logo p{
+  font-size: 16px;
+}
+
+section{
+  width: 100%;
+}
+.menubar{
+  width: 100%;
+}
+.menubar nav{
+  flex-flow: column;
+  width: 100%;
+}
+.menubar nav a{
+  margin-bottom: 0.6em;
+  font-size:20px;
+  border: 1px solid white;
+}
+.menubar nav a:hover{
+  transform: none;
+}
+.maincontent{
+  flex-flow: column wrap;
+  width: 100%;
+}
+.leftpart{
+  width: 100%;
+}
+.leftpart h1{
+  font-size: 2.5em;
+  padding-top: 20px;
+}
+.leftpart h2{
+  font-size: 2em;
+  padding-bottom: 20px;
+}
+.homepart{
+  width: 100%;
+}
+.contactpart{
+  width: 100%;
+}
+.cvpart{
+  width: 100%;
+}
+.biopart{
+  width: 100%;
+}
+.profilepic{
+  background-size: cover;
+  width:100%;
+}
+.profilepic img{
+  margin-left: -40px;
+}
+.profilepic img:hover{
+  transform: none;
+}.stayconnected{
+  width: 100%;
+}
+.stayconnected h1{
+  font-size: 2.5em;
+  padding-top: 20px;
+}
+.stayconnected h2{
+  font-size: 2em;
+  padding-bottom: 20px;
+}
+
+footer{
+  flex-direction: column-reverse; width: 100%;
+}
+.copyright{
+  margin-top: 0em;
+}
+.socialconnect{
+  margin-bottom: 0.6em;
+}
