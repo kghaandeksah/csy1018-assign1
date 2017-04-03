@@ -1,48 +1,72 @@
 <!--Name: Ganesh Khadka Studeent Number: 17421478-->
 <!DOCTYPE html>
+<!-- this decleration is for defining that the document is HTML5-->
 <html>
+<!-- this is the root element used for defining HTML page -->
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>My Portfolio</title>
-  <link rel="stylesheet" type="text/css" href="css/styles.css">
+<!-- this is the element which inlcudes the meta information of the document -->
+<meta charset="utf-8">
+<!-- it is to support many language -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- it is for supportive mobile view -->
+<title>Contact</title>
+<!-- this is for providing title to the document -->
+<link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
+<!-- this is the element which ends the meta information of the document -->
 
 <body>
-  <header>
-    <div class="logo">
-      <img src="images/logo.main.png" alt="Logo">
-      <p>Ganesh Khadka</p>
-    </div>
-    <div class="mainheading">
-      <h1>My Portfolio</h1>
-    </div>
-  </header>
+<!-- it includes the visible part of the webpage  -->
+<header>
+<!-- this is first part of body including logo and mainheading -->
+  <div class="logo">
+  <!-- this block is for image(logo) -->
+    <img src="images/logo.main.png" alt="Logo">
+    <p>Ganesh Khadka</p>
+  </div>
+  <!-- this is for ending logo block -->
+  <div class="mainheading">
+  <!-- this is the block for mainheading -->
+    <h1>My Portfolio</h1>
+    <!-- this is for defining main heading -->
+  </div>
+  <!-- this is for ending mainheading block -->
+</header>
+<!-- this is for ending header part -->
 
-  <section>
-    <div class="menubar">
-      <nav>
+<section>
+<!-- this is the second part of body including menubar and maincontent -->
+  <div class="menubar">
+  <!-- this block is for navigation containing home, cv, biography and contact -->
+    <nav>
+    <!-- this is the start of navigation containing home, cv, biography and contact -->
         <a href="index.html">Home</a>
         <a href="cv.html">CV</a>
         <a href="bio.html">Biography</a>
         <a class="abc" href="contact.html">Contact</a>
       </nav>
+      <!-- this is the end of navigation -->
     </div>
     <div class="maincontent">
-    <div class="leftpart">
-      <h1>Welcome</h1><br>
-      <h2> to my</h2><br>
-      <h2>Contact Page</h2>
-    </div>
+    <!-- this block is for maincontent containing leftpart and homepart and rightpart -->
+      <div class="leftpart">
+      <!-- this block is for leftpart showing welcome message to particular page -->
+        <h2>Welcome</h2><br>
+        <h3> to my</h3><br>
+        <h3>Website</h3>
+      </div>
+      <!-- this is for ending leftpart -->
     <div class="contactpart">
+    <!-- this block is for contact part containing formpart -->
       <div class="formpart">
+        <!-- this block is for formpart -->
         <h2>Let me know about you:</h2>
-        <form action="form.html" method="post"><br>
+        <!-- this is for heading of form -->
+        <form action="contact.html" method="post"><br>
 
-          <input type="text" name="firstname" placeholder="Enter Your First Name">
-          <input type="text" name="lastname" placeholder="Enter Your Last Name"><br><br>
-          <input type="text" name="email" placeholder="Enter Email Adress" ><br><br>
-          <input type="date" name="date" placeholder="Enter Date of birth"><br><br>
+          <input type="text" name="firstname" placeholder="First Name">
+          <input type="text" name="lastname" placeholder="Last Name"><br><br>
+          <input type="text" name="email" placeholder="Email Adress" ><br><br>
 
           <input type="radio" name="gender" value="male">Male
           <input type="radio" name="gender" value="female">Female<br><br>
@@ -50,31 +74,45 @@
           <label>Drop your message in the box below:</label><br>
           <textarea name="feedback" rows="6" cols="40" placeholder="Write your mesege here"></textarea><br>
 
-          <input type="submit" class="submit" value="cancel">
-          <input type="submit" class="submit" value="save">
+          <input type="reset" class="submit" value="reset">
+          <input type="submit" class="submit" value="send">
 
         </form>
+        <!-- this is the ending of form -->
       </div>
+      <!-- this is ending of formpart -->
     </div>
+    <!-- this is ending if contactpart -->
       <div class="stayconnected">
+        <!-- this is for stayconnected block -->
         <h2>Stay<br>Connected</h2><br>
       </div>
+      <!-- this is the ending stayconnected block -->
     </div>
-
+    <!-- this is for ending maincontent block -->
   </section>
+  <!-- this is for ending section -->
 
   <footer>
+  <!-- this is the third part of body containing copyright and socialconnect -->
     <div class="copyright">
+    <!-- this is the block for copyright -->
       <p>Copyright ©  2017 Ganesh<br>
         All Rights Reserved.</p>
     </div>
+    <!-- this is for ending copyrightblock -->
     <div class="socialconnect">
-      <p>Find me in:</p>
+    <!-- this block is for social media icons -->
+      <p>Find me in:</p><br>
       <a href="https://www.facebook.com" target="_blank"><img src="images/logo.facebook1.png" alt="Facebook"></a>
       <a href="https://www.twitter.com" target="_blank"><img src="images/logo.twitter1.png" alt="Twitter"></a>
       <a href="https://www.gmail.com" target="_blank"><img src="images/logo.email1.png" alt="Email"></a>
       <a href="https://www.linkedin.com" target="_blank"><img src="images/logo.linkedin.png" alt="Email"></a>
     </div>
+    <!-- this is for ending socialconnect block -->
   </footer>
+  <!-- this is for ending footer -->
   </body>
+  <!-- this is for ending body -->
 </html>
+<!-- this for ending html -->

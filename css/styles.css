@@ -1,36 +1,40 @@
 /* Name: Ganesh Khadka Studeent Number: 17421478*/
 @import url("https://fonts.googleapis.com/css?family=Lobster+Two");
+/*this is for importing goolgle fonts*/
 @import url("https://fonts.googleapis.com/css?family=Special+Elite");
 body{margin: 0; font-size: 1em;
-} /*this is css code for the whole body */
-h1,h2,h3,h4,h5,h6,p{
+}
+ /*this is for the whole body */
+h1,h2,h3,h4,h5,h6,p,ul{
   margin:0;
   padding: 0;
 }
-
+/*this is to provide default value for whole boody*/
 header{
   padding: 0.5%;
   display: flex;
+  /*this is to use flex properties*/
   flex-flow: row;
-  background: grey;
-  background: linear-gradient(pink, orange);
+  background: purple;
+  /*this is for property of background if gradient is not supported*/
+  background: linear-gradient(purple, pink);
 }
-.mainheading{
-  text-align: center;
-  font-size: 1.7em;
+/*this is for property of of header*/
 }
 
 .logo img{
   width: 152px;
   height: 101px;
-  margin-left: 10px;
-  margin-top: 5px;
+  margin: 5px 10px 0 0;
   transition: transform 2s;
+  /*this for property of logo transform of header part*/
 }
+/*this is for property of logo of header part*/
 
 .logo img:hover{
   transform: translate(10px);
 }
+/*this is for property of logo transform during hover*/
 
 .logo p{
   font-size: 1.25em;
@@ -43,62 +47,76 @@ header{
   width: 50%;
   text-align: right;
   padding-top: 20px;
+  font-size: 1.7em;
 }
+/*this is for property of mainheading*/
 
 .mainheading h1{
   color: orange;
   text-shadow:3px 3px 4px black;
 }
+/*this is for property of font of main heading*/
 
-section{}
+section{
+  width: 100%;
+}
+/*this is for property of whole section part*/
   .menubar{
     width: 100%;
     top:0px;
     line-height:0px;
 }
+/*this is for property of menu part containing nav*/
   .menubar nav{
     display: flex;
     flex-flow: row;
     justify-content: space-around;
     padding: 0.5% 1%;
     line-height: 2.5em;
-    background: green;
+    background: gold;
 }
+/*tis is for property of nav of menubar*/
   .abc{
-    background: #e6cb3b;
+    background: grey ;
     border-radius:1%;
 }
   .menubar a{
     text-decoration: none;
-    font-size: 2.5em;
-    color: white;
+    font-size: 2.2em;
+    color: purple;
     padding:0% 2em;
     transition: width 0.5s, height 0.5s, transform 0.5s;
 }
+/*this is for property of font of menubar*/
   .menubar a:hover{
     color:red;
     text-shadow: 2px 2px black;
     transform: scale(1.1, 1.1);
 }
+/*tis is for property of nav of menubar during hover*/
+
   .maincontent{
     width: 100%;
     display: flex;
     flex-direction: row;
 }
+/*tis is for property of maincontent of section part*/
+
 	.leftpart{
     width:25%;
     background-color: purple;
     padding-bottom: 60px;
-
 }
-  .leftpart h1{
+/*tis is for property of leftbaar*/
+
+  .leftpart h2{
     font-size: 3.7em;
     color: white;
     padding-top: 60px;
     text-align: center;
     text-shadow: 4px 4px 3px gold;
   }
-  .leftpart h2{
+  .leftpart h3{
     font-size: 2.5em;
     color: white;
     text-align: center;
@@ -112,8 +130,10 @@ section{}
   .cvpart{
     width: 56%;
     background-color: lightgreen;
-    padding: 1%;
-font-family: 'Special Elite', cursive;  }
+    padding:15px 30px;
+    margin:
+    font-family: 'Special Elite', cursive;
+  }
   .biopart{
     width: 56%;
     background-color: lightgreen;
@@ -121,21 +141,24 @@ font-family: 'Special Elite', cursive;  }
   }
   .contactpart{
     background-color: lightgreen;
-    width: 50%;
+    width: 56%;
     display: flex;
     flex-direction: row;
+    padding:1%;
   }
   .contactpart h2{
-    margin-top: 2px;
-    padding-top: 2px;
-    margin-left: 14px;
+    margin: 2px 14PX 0 0;
+    padding: 2px 15px;
     color: orange;
   }
   form{
-    font-size: 1.12;
+    font-size: 1.12em;
     background: lightgreen;
-    padding-left:20px;
+    padding-left:15px;
+    margin-left: 1%;
   }
+  /*tis is for property of formpart*/
+
   input{
     border-radius:5px;
     border: 0.5px solid gold;
@@ -145,10 +168,11 @@ font-family: 'Special Elite', cursive;  }
     margin: 4px;
   }
   .stayconnected{
-    width: 25%;
+    /*tis is for property of stayconnected of contactpart*/
+
+    width: 18%;
     padding-left: 2px;
     background-color: purple;
-    height: 420px;
   }
   .stayconnected h2{
     font-size: 2.5em;
@@ -159,9 +183,11 @@ font-family: 'Special Elite', cursive;  }
   }
 
   .rightpart{
-    width: 18 %;
+    width: 18%;
     background: purple;
   }
+  /*tis is for property of rightpart*/
+
   .rightpart img{
     position: relative;
     padding: 4px 10px;
@@ -170,7 +196,7 @@ font-family: 'Special Elite', cursive;  }
   }
   .rightpart img:hover{
     transform: scale(1.05, 1.05);
-  }
+  }/*tis is for property for transform during hover on image*/
 
 footer{
   background: grey;
@@ -181,10 +207,11 @@ footer{
   display: flex;
   flex-direction: row;
 }
+/*tis is for property of footer*/
+
 .copyright{
   width: 50%;
-  padding-left: 1%;
-  padding-top: 1.5em;
+  padding: 1.5em 1% 0 0;
 }
 .socialconnect{
   width: 50%;
@@ -199,12 +226,14 @@ footer{
 }
 
 @media all and (max-width: 400px)
+/*tis is for providing responsive design of the webpage*/
+
 {
 body{
   width: 100%
 }
 header{
-  width: 100%;
+  width: 100.1%;
 }
 .mainheading h1{
   font-size: 1.88em;
@@ -226,7 +255,8 @@ section{
 }
 .menubar nav{
   flex-flow: column;
-  width: 100%;
+  width: 99%;
+  text-align: center;
 }
 .menubar nav a{
   margin-bottom: 0.6em;
@@ -241,13 +271,13 @@ section{
   width: 100%;
 }
 .leftpart{
-  width: 100%;
+  width: 101%;
 }
-.leftpart h1{
+.leftpart h2{
   font-size: 2.5em;
   padding-top: 20px;
 }
-.leftpart h2{
+.leftpart h3{
   font-size: 2em;
   padding-bottom: 20px;
 }
@@ -255,41 +285,63 @@ section{
   width: 100%;
 }
 .contactpart{
-  width: 100%;
+  width: 99%;
+}
+.contactpart textarea{
+  width: 280px;
 }
 .cvpart{
-  width: 100%;
+  width: 95.5%;
 }
 .biopart{
   width: 100%;
+}
+.rightpart{
+  width: 101%;
 }
 .profilepic{
   background-size: cover;
   width:100%;
 }
 .profilepic img{
-  margin-left: -40px;
+  margin-left: 50px;
 }
 .profilepic img:hover{
   transform: none;
-}.stayconnected{
-  width: 100%;
+/*during resposvive transform during hover for profile pic has not been set*/
 }
-.stayconnected h1{
-  font-size: 2.5em;
-  padding-top: 20px;
+.stayconnected{
+  width: 100.5%;
+  height: 200px;
 }
+/*tis is for property of stayconnected for responsive design*/
+
 .stayconnected h2{
   font-size: 2em;
-  padding-bottom: 20px;
+  padding:50px 0;
 }
 
 footer{
-  flex-direction: column-reverse; width: 100%;
+  flex-direction: column-reverse; width: 97%;
 }
+/*tis is for property of footer part for responsive design*/
+
 .copyright{
   margin-top: 0em;
 }
 .socialconnect{
-  margin-bottom: 0.6em;
+  margin:0 0px 0.6em 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+/*tis is for property of socail connect for responsive design*/
+
+.socialconnect img{
+  height: 50px;
+  width: 50px;
+  padding:0 60%;
+}
+/*tis is for property of icons of social media for responsive design*/
+
 }
