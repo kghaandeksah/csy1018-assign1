@@ -16,14 +16,16 @@ header{
   padding: 0.5%;
   display: flex;  /*this to use flex properties*/
   flex-flow: row;
+  height: 140px;
   background: purple;  /*this for property of background if gradient is not supported*/
   background: linear-gradient(purple, pink);
 }/*this for property of of header*/
 
 .logo img{
-  width: 152px;
-  height: 101px;
+  width: 125px;
+  height: 80px;
   margin: 5px 10px 0 0;
+  padding: 25px 25px 0;
   transition: transform 2s;  /*this for property of logo transform of header part*/
 }/*this for property of image(logo) of header part*/
 
@@ -31,17 +33,10 @@ header{
   transform: translate(10px);
 }/*this for property of logo transform during hover*/
 
-.logo p{
-  font-size: 1.25em;
-  color: red;
-  text-shadow: 2px 2px 1px blue;
-  font-family:'Lobster Two', cursive;
-}  /*this is for property text below the logo*/
-
 .mainheading{
   width: 50%;
   text-align: right;
-  padding-top: 20px;
+  padding-top: 35px;
   font-size: 1.7em;
 }/*this for property of mainheading*/
 
@@ -116,12 +111,13 @@ section{
 	.homepart{
     width: 56%;
     background-color: lightgreen;
-    padding: 1%;
+    padding: 10px 1% 20px;
+    height: 420px;
   } /*this is for property of homepart*/
 
   .homepart img{
     width: 100%;
-    height:30%;
+    height:50%;
   }/*}this is for the image in the homepart*/
 
   .homepart ul{
@@ -151,6 +147,15 @@ section{
     padding: 1%;
     text-align: justify;
   }  /*}this is the property for the biopart of bio page*/
+  .biopart h2{
+    font-size: 2em;
+    color: red;
+    text-shadow: 2px 2px 1px blue;
+    padding-bottom: 10px
+  }
+  .biopart p{
+    font-family:'Lobster Two', cursive;
+}
 
 
   .contactpart{
@@ -251,14 +256,17 @@ body{
 }
 header{
   width: 100.1%;
+  height: 150px;
 }
 .mainheading h1{
-  font-size: 1.88em;
-  text-align: center;
+  font-size: 1.5em;
+  text-align: left;
+  text-align: justify;
 }
 .logo img{
   height: 50px;
   width: 50px;
+  margin-top: 35px;
 }
 .logo p{
   font-size: 16px;
@@ -299,7 +307,7 @@ section{
   padding-bottom: 20px;
 }
 .homepart{
-  width: 100%;
+  width: 99%;
 }
 .contactpart{
   width: 99%;
@@ -308,7 +316,7 @@ section{
   width: 280px;
 }
 .cvpart{
-  width: 85%;
+  width: 84.5%;
 }
 .biopart{
   width: 100%;
