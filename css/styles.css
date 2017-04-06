@@ -18,6 +18,8 @@ header{
   flex-flow: row;
   height: 140px;
   background: purple;  /*this for property of background if gradient is not supported*/
+  background: -webkit-linear-gradient(purple, pink);/*this is for safari*/
+  background: -o-linear-gradient(purple, pink);/*this is opera*/
   background: linear-gradient(purple, pink);
 }/*this for property of of header*/
 
@@ -138,6 +140,7 @@ section{
     width: 56%;
     background-color: lightgreen;
     padding:15px 30px;
+    line-height: 30px;
     font-family: 'Special Elite', cursive;
   }  /*}this is the property for the cv part of cv page*/
 
@@ -145,6 +148,7 @@ section{
     width: 56%;
     background-color: lightgreen;
     padding: 1%;
+    line-height: 35px;
     text-align: justify;
   }  /*}this is the property for the biopart of bio page*/
   .biopart h2{
@@ -155,6 +159,7 @@ section{
   }
   .biopart p{
     font-family:'Lobster Two', cursive;
+    font-size: 1.1em;
 }
 
 
@@ -248,11 +253,11 @@ footer{
 }/*this is for property of icons of social sites of footer during hover*/
 
 
-@media all and (max-width: 400px)
+@media all and (max-width: 600px)
 /*this is for providing responsive design of the webpage*/
 {
 body{
-  width: 100%
+  width: 100%;
 }
 header{
   width: 100.1%;
@@ -316,10 +321,10 @@ section{
   width: 280px;
 }
 .cvpart{
-  width: 84.5%;
+  width: 88.5%;
 }
 .biopart{
-  width: 100%;
+  width: 99%;
 }
 .rightpart{
   width: 101%;
